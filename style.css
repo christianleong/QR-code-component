@@ -23,7 +23,6 @@ body {
 
 .container {
     width: 300px;
-    margin: auto;
     background-color: var(--White);
     min-height: 500px;
     border-radius: 20px;
@@ -35,19 +34,20 @@ img {
     width: 300px;
 }
 
-h4 {
-    font-weight: 600;
-    font-size: 22px;
+h4, p{
     text-align: center;
     padding: 10px;
 }
 
+h4 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
 p {
     color: var(--Grayish_blue);
-    text-align: center;
     font-size: 16px;
-    padding: 10px;
-}
+} 
 
 .attribution {
     font-size: 12px;
